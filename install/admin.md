@@ -15,9 +15,9 @@ $ cd codepub
 > 请参照你自己的平台下载对应的安装包
 地址: https://github.com/bzppx/bzppx-codepub/releases
 
-以 linux amd64 为例，下载 v0.8.1 版本（注意，请下载最新版本）
+以 linux amd64 为例，下载 v0.8 版本（注意，请下载最新版本）
 ```
-$ wget https://github.com/bzppx/bzppx-codepub/releases/download/v0.8.1/bzppx-codepub-linux-amd64.tar.gz
+$ wget https://github.com/bzppx/bzppx-codepub/releases/download/v0.8/bzppx-codepub-linux-amd64.tar.gz
 # 解压到当前目录
 $ tar -zxvf bzppx-codepub-linux-amd64.tar.gz
 ```
