@@ -66,11 +66,11 @@ MaxCount = 3
 ## 启动 agent 
 
 ```
-$ ./bzppx-agent-codepub --conf config.toml
+$ ./bzppx-agent-codepub --conf agent.toml
 ```
 
 ## 后台运行
 
 ```
-$ ./bzppx-agent-codepub --conf config.toml > /tmp/debug.log 2>&1 &
+$ ./bzppx-agent-codepub --conf agent.toml > /tmp/debug.log 2>&1 &
 ```
