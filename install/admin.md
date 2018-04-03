@@ -1,6 +1,7 @@
 # 后台安装
 
 > bzppx-codepub 后台系统安装
+> 注意: linux 下所有的操作最好都以 root 用户执行
 
 ## 准备好安装目录
 ```
@@ -16,10 +17,9 @@ $ cd codepub
 
 以 linux amd64 为例，下载 v0.8.1 版本（注意，请下载最新版本）
 ```
-> wget https://github.com/bzppx/bzppx-codepub/releases/download/v0.8.1/bzppx-codepub-linux-amd64.tar.gz
-
+$ wget https://github.com/bzppx/bzppx-codepub/releases/download/v0.8.1/bzppx-codepub-linux-amd64.tar.gz
 # 解压到当前目录
-> tar -zxvf bzppx-codepub-linux-amd64.tar.gz
+$ tar -zxvf bzppx-codepub-linux-amd64.tar.gz
 ```
 
 ## 安装系统配置
@@ -28,12 +28,12 @@ $ cd codepub
 
 进入安装目录 install (注意，这里必须进入安装目录 install )
 ```
-> cd install
+$ cd install
 ```
 
 执行安装程序，port 默认为 8090
 ```
-> ./install --port=8090
+$ ./install --port=8090
 ```
 
 打开浏览器，输入 http://你安装的机器ip:8090, 如果是本机访问，http://127.0.0.1:8090  
@@ -60,8 +60,8 @@ Ctrl + C 停止 install 程序
 
 复制一份默认的配置文件, 复制到任意目录打开配置文件修改配置
 ```
-> cp conf/default.conf conf/codepub.conf
-> vim codepub.conf 
+$ cp conf/default.conf conf/codepub.conf
+$ vim codepub.conf 
 ```
 
 配置文件配置说明
@@ -94,7 +94,7 @@ file="{"level":7, "filename":"logs/codepub.log"}" # 日志配置
 
 需指定配置文件
 ```
-./bzppx-codepub --conf conf/codepub.conf
+$ ./bzppx-codepub --conf conf/codepub.conf
 ```
 
 可设置后台启动
