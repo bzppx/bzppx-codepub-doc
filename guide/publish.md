@@ -13,6 +13,8 @@
 
 - 回滚：回滚操作理论上也是发布操作，区别在于，回滚必须要求用户填写回滚的 commit_id, 也就是代码仓库提交的 commit_id
 
+![github_commit_id](./images/commit_id.png)
+
 - 历史：可以查看到该项目的所有发布历史，发布状态
 
 
