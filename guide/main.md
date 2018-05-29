@@ -24,4 +24,5 @@
 
 - 系统联系人手册
 
+![img](./images/main_contact.png)
 
