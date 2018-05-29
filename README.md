@@ -15,6 +15,7 @@ bzppx-codepub 代码发布系统文档
 
 # 使用指南
 - [系统概念](./guide/concept.md)
+- [登录管理](./guide/login.md)
 - [后台面板](./guide/main.md)
 - [个人中心](./guide/profile.md)
 - [用户管理](./guide/user.md)
